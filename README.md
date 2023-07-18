@@ -12,7 +12,7 @@
 
 Este relatório apresenta o trabalho desenvolvido pela equipe composta pelos integrantes acima mencionados, como atividade avaliativa da disciplina de Construção de Compiladores. O objetivo do trabalho foi a implementação de um analisador semântico linguagem LA (Linguagem Algorítmica) desenvolvida pelo prof. Jander, no âmbito do DC/UFSCar. 
 
-O analisador semântico deve ler um programa-fonte e apontar onde existe erro semântico, indicando a linha e o lexema que causou a detecção do erro. Os erros léxicos detectados no T1, erros sintáticos do T2 e erros semânticos do T3 devem continuar sendo detectados corretamente.
+O analisador semântico deve detectar, além dos erros identificados anteriormente pelo T3 (identificador já declarado, tipo não declarado, indentificador não declarado e atribuição não compatível), erros que incluem ponteiros, registros e funções.
 
 ### Modo de Execução e Compilação
 
